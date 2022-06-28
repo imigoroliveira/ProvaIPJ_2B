@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj": {}
+    "C:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj": {}
   },
   "projects": {
-    "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj": {
+    "C:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
+        "projectUniqueName": "C:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
         "projectName": "cadastro",
-        "projectPath": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
+        "projectPath": "C:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
         "packagesPath": "C:\\Users\\neto_\\.nuget\\packages\\",
-        "outputPath": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\obj\\",
+        "outputPath": "C:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\neto_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.1, )"
