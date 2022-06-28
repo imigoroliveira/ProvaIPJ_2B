@@ -24,17 +24,16 @@ export class FolhaPagamentoController {
     return response.status(200).json(dados);
   }
 
-  consultar(request: Request, response: Response) {
+  cadastrar(message : string) {
+    let folhas: FolhaPagamento[] = JSON.parse(message);
+    folhas = folhaRepository.cadastrar(folhas);
+    console.log(folhas);
+  }
+    consultar(request: Request, response: Response) {
     const {cpf, mes, ano} = request.params;
     const folha = folhaRepository.consultar(
       cpf, Number.parseInt(mes), Number.parseInt(ano)
     );
     return response.status(200).json(folha);
-  }
-
-  cadastrar(message : string) {
-    let folhas: FolhaPagamento[] = JSON.parse(message);
-    folhas = folhaRepository.cadastrar(folhas);
-    console.log(folhas);
   }
 }
