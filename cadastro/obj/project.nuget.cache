@@ -1,15 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "4waTeAeqv5ZtZawlcgswNb9X0u9JJOd4lzlcANkrcIEzSA0vqEEKwa93+btLI6kFIlajAin65snGEs7Rc6aE2Q==",
+  "dgSpecHash": "CAON3wMYCKiO63bBqD6FvAHOXuIUq5g1hI0p7Fgx5/Qg5YaUc3tHlxeD1w+nsbSdHDvQgOKi/j3pTnn3Rq4I/A==",
   "success": true,
-  "projectFilePath": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
+  "projectFilePath": "C:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neto_\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
     "C:\\Users\\neto_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
-    "C:\\Users\\neto_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
+    "C:\\Users\\neto_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\neto_\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
