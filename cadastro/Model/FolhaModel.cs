@@ -16,7 +16,7 @@ namespace cadastro.Model
         public int valor { get; set; }
         public bool processada { get; set; }
 
-        public Funcionario funcionario { get; set; }
+        public Funcionario? funcionario { get; set; }
 
         public double? irrf { get; set; }
         public double? inss { get; set; }

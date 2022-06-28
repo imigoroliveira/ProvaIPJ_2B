@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj": {}
+  },
+  "projects": {
+    "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
+        "projectName": "cadastro",
+        "projectPath": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\cadastro.csproj",
+        "packagesPath": "C:\\Users\\neto_\\.nuget\\packages\\",
+        "outputPath": "c:\\_ws\\integracao-de-sistemas\\ProvaIPJ_2B\\cadastro\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\neto_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
