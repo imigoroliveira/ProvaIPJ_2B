@@ -19,12 +19,12 @@ class FolhaPagamentoController {
         return response.status(200).json(dados);
     }
 
-    cadastrar(message) {
+    total(message) {
         let folhas = JSON.parse(message);
         folhas = folhaRepository.cadastrar(folhas);
         console.log(folhas);
     }
-    consultar(request, response) {
+    media(request, response) {
         const { cpf, mes, ano } = request.params;
         const folha = folhaRepository.consultar(cpf, Number.parseInt(mes), Number.parseInt(ano));
         return response.status(200).json(folha);
