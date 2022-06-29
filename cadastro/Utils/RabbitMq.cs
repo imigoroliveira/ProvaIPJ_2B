@@ -44,7 +44,7 @@ namespace cadastro.Utils
                     Console.WriteLine(" [x] Sent {0}", body);
                 }
             }
-            
+
 
         }
     }
