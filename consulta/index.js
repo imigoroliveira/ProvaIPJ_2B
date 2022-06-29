@@ -40,7 +40,7 @@ const amqplib_1 = require("amqplib");
 const rabbitmq_server_1 = require("./rabbitmq-server");
 function start() {
     return __awaiter(this, void 0, void 0, function* () {
-        const conn = yield (0, amqplib_1.connect)("amqp://guest:guest@rabbitmq:5673");
+        const conn = yield (0, amqplib_1.connect)("amqp://guest:guest@rabbitmq:5672");
         const channel = yield conn.createChannel();
         const server = rabbitmq_server_1.RabbitmqServer.getInstance(conn, channel);
         server.createQueue("teste");
@@ -52,6 +52,6 @@ start().then(() => __awaiter(void 0, void 0, void 0, function* () {
     app.use(express_1.default.json());
     app.use(routes);
     app.listen(3334, () => {
-        console.log("Servidor rodando na porta 3334...");
+        console.log("Servidor rodando...");
     });
 }));
