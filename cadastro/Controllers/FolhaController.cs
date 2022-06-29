@@ -77,6 +77,8 @@ namespace cadastro.Controllers
 
             newFolha.liquido = Convert.ToInt32(newFolha.bruto - newFolha.irrf - newFolha.inss - newFolha.fgts);
 
+            Utils.Send.Main(newFolha);
+
             return Ok(newFolha);
         }
 

@@ -16,7 +16,7 @@ namespace cadastro.Utils
             ConnectionFactory factory = new ConnectionFactory
             {
                 HostName = "localhost",
-                Port = Protocols.DefaultProtocol.DefaultPort,
+                Port = 15672,
                 UserName = "guest",
                 Password = "guest",
                 VirtualHost = "/",
