@@ -22,6 +22,19 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+      "RabbitMQ.Client/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.3.1": {
         "type": "package",
         "dependencies": {
@@ -120,6 +133,25 @@
         "microsoft.openapi.nuspec"
       ]
     },
+<<<<<<< HEAD
+=======
+    "RabbitMQ.Client/6.4.0": {
+      "sha512": "1znR1gGU+xYVSpO5z8nQolcUKA/yydnxQn7Ug9+RUXxTSLMm/eE58VKGwahPBjELXvDnX0k/kBrAitFLRjx9LA==",
+      "type": "package",
+      "path": "rabbitmq.client/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.4.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+>>>>>>> f2df27b93a6e8238a6195503bdb0469b4fa698f0
     "Swashbuckle.AspNetCore/6.3.1": {
       "sha512": "JFk0+HHUPdjYuPhkpGBMLi2JtnEuWkE2pp0yXQp64DmeMe+Fb0hZyVNq/ENJ2vQNso7Zg+C758WmR/xyAl36bA==",
       "type": "package",
@@ -204,6 +236,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+<<<<<<< HEAD
+=======
+      "RabbitMQ.Client >= 6.4.0",
+>>>>>>> f2df27b93a6e8238a6195503bdb0469b4fa698f0
       "Swashbuckle.AspNetCore >= 6.3.1"
     ]
   },
@@ -244,6 +280,13 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+<<<<<<< HEAD
+=======
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+>>>>>>> f2df27b93a6e8238a6195503bdb0469b4fa698f0
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.3.1, )"
