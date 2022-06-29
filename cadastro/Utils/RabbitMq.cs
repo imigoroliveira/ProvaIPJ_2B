@@ -1,4 +1,5 @@
 ﻿using RabbitMQ.Client;
+using System;
 using System.Text;
 using cadastro.Model;
 using System.Text.Json;
@@ -11,25 +12,39 @@ namespace cadastro.Utils
         public static void Main(FolhaModel newFolha)
         {
             FolhaModel folha = newFolha;
-            var factory = new ConnectionFactory() { HostName = "localhost" };
-            using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
+            TimeSpan tsInstance1 = new TimeSpan(60);
+            ConnectionFactory factory = new ConnectionFactory
             {
-                channel.QueueDeclare(queue: "cadastrofolha",
-                                     durable: false,
-                                     exclusive: false,
-                                     autoDelete: false,
-                                     arguments: null);
+                HostName = "localhost",
+                Port = Protocols.DefaultProtocol.DefaultPort,
+                UserName = "guest",
+                Password = "guest",
+                VirtualHost = "/",
+                RequestedHeartbeat = tsInstance1
+            };
 
-                string jsonString = JsonSerializer.Serialize(folha);
-                var body = Encoding.UTF8.GetBytes(jsonString);
+            using (IConnection? connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    channel.QueueDeclare(queue: "cadastrofolha",
+                                         durable: true,
+                                         exclusive: false,
+                                         autoDelete: false,
+                                         arguments: null);
 
-                channel.BasicPublish(exchange: "",
-                                     routingKey: "",
-                                     basicProperties: null,
-                                     body: body);
-                Console.WriteLine(" [x] Sent {0}", body);
+                    string jsonString = JsonSerializer.Serialize(folha);
+                    var body = Encoding.UTF8.GetBytes(jsonString);
+
+                    var properties = channel.CreateBasicProperties();
+                    channel.BasicPublish(exchange: "",
+                                         routingKey: "",
+                                         basicProperties: properties,
+                                         body: body);
+                    Console.WriteLine(" [x] Sent {0}", body);
+                }
             }
+            
 
         }
     }
