@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using cadastro.Model;
-using cadastro.Utils;
 
 namespace cadastro.Controllers
 {
@@ -10,7 +9,7 @@ namespace cadastro.Controllers
     {
 
         [HttpPost]
-        public IActionResult CadastrarFolsha([FromBody] FolhaModel folha)
+        public IActionResult CadastrarFolha([FromBody] FolhaModel folha)
         {
             // Pegar folha
             var newFolha = folha;
@@ -77,8 +76,6 @@ namespace cadastro.Controllers
             newFolha.fgts = (newFolha.bruto * 0.08);
 
             newFolha.liquido = Convert.ToInt32(newFolha.bruto - newFolha.irrf - newFolha.inss - newFolha.fgts);
-
-            Utils.Send.Main(newFolha);
 
             return Ok(newFolha);
         }

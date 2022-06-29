@@ -1,29 +1,27 @@
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\appsettings.Development.json
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\appsettings.json
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\cadastro.exe
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\cadastro.deps.json
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\cadastro.runtimeconfig.json
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\cadastro.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\cadastro.pdb
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\RabbitMQ.Client.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\Serilog.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.csproj.AssemblyReference.cache
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.GeneratedMSBuildEditorConfig.editorconfig
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.AssemblyInfoInputs.cache
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.AssemblyInfo.cs
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.csproj.CoreCompileInputs.cache
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.MvcApplicationPartsAssemblyInfo.cs
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.MvcApplicationPartsAssemblyInfo.cache
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\staticwebassets.build.json
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\staticwebassets.development.json
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\scopedcss\bundle\cadastro.styles.css
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.csproj.CopyComplete
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\refint\cadastro.dll
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.pdb
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\cadastro.genruntimeconfig.cache
-C:\_ws\integracao-de-sistemas\ProvaIPJ_2B\cadastro\obj\Debug\net6.0\ref\cadastro.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\appsettings.Development.json
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\appsettings.json
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\cadastro.exe
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\cadastro.deps.json
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\cadastro.runtimeconfig.json
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\cadastro.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\cadastro.pdb
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.csproj.AssemblyReference.cache
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.GeneratedMSBuildEditorConfig.editorconfig
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.AssemblyInfoInputs.cache
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.AssemblyInfo.cs
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.csproj.CoreCompileInputs.cache
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.MvcApplicationPartsAssemblyInfo.cs
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.MvcApplicationPartsAssemblyInfo.cache
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\staticwebassets.build.json
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\staticwebassets.development.json
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\scopedcss\bundle\cadastro.styles.css
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.csproj.CopyComplete
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\refint\cadastro.dll
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.pdb
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\cadastro.genruntimeconfig.cache
+F:\Desktop\Faculdade\6 - Integração de Sistemas de Software\2º Bim\Prova\cadastro\obj\Debug\net6.0\ref\cadastro.dll
